@@ -1,0 +1,204 @@
+footer{
+    height: 1185px;
+    background-color:#0E1135;
+    margin-top: 220px;
+}
+.top_footer >h2{
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 59px;
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+
+        padding-top: 121px;
+
+}
+.top_footer>p{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
+.footer_button_wrapper{
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+}
+.futter_button{
+        width: 865px;
+        height: 71px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffffff;
+        backdrop-filter: blur(11.6732px);
+        border-radius: 116.732px;
+        margin-left: 72px;
+} 
+.email_text{
+
+    font-weight: 400;
+        font-size: 18px;
+        color: #828282;
+    margin-left: 72px;
+}
+.futter_button span{
+    margin-right: 5px;
+    width: 150px;
+    height: 63px;
+    background: #2F80ED;
+    border-radius: 101.511px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+.futter_button span:hover{
+    transform: scale(1.05);
+}
+hr{
+    display: flex;
+    justify-content: center;
+    margin-top: 108px;
+    width: 1378px;
+}
+
+/* BOTTOM */
+
+.bottom_footer{
+    width: 1280px;
+    max-width: 1290px;
+    min-width: 540px;
+    margin: 0px auto;
+}
+.logo_footer{ 
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: capitalize;
+    transition: 1s ease all;
+
+}
+
+.logo_footer::before {
+    margin-top: 38px;
+    margin-right: 20px;
+    content: url(./img/logo.svg);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.one_footer h3{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+}
+.one_footer {
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* TEXT */
+.text_wrapper_footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer_big_text{
+    width: 489px;
+    height: 123px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    /* border: 1px solid red; */
+}
+.footers_icons_app img{
+    margin-right: 40px;
+    /* border: 1px solid red; */
+}
+.footers_icons_app{
+    width: 489px;
+    /* border: 1px solid red; */
+    margin-top: 33px;
+}
+.small_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    text-transform: capitalize;
+    color: #E0E0E0;
+    /* border: 1px solid red; */
+    margin-right: 35px;
+
+    
+}
+.small_text p{
+        /* border: 1px solid red; */
+        cursor: pointer;
+}
+.small_text p:hover{
+    color: #ffffff;
+}
+.market_footer{
+    margin-left:330px ;
+
+
+}
+.links_footer{
+    margin-right: 130px;
+}
+.end_footer{
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-top: 100px;
+    margin-bottom: 31px;
+    font-weight: 100;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.end_footer::before{
+    content: url(./img/app_img/c.svg);
+    margin-right: 5px;
+    margin-top: 7px;
+}

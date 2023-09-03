@@ -1,0 +1,52 @@
+.collection>h2{
+    margin-top: 300px;
+    margin-bottom: 70px;
+}
+
+.collections_button button {
+ margin-right: 20px;
+}
+
+.collections_button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-flow: row wrap;
+}
+
+.collections_button > .art,
+.collections_button >.collectibles,
+.collections_button >.metaverse,
+.collections_button >.virtual_worlds,
+.collections_button >.sports,
+.collections_button >.music,
+.see_more__button>button
+ {
+    border: none;
+    display: flex;
+    padding: 10px 55px;
+    gap: 10px;
+    background: #2F80ED;
+    border-radius: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    flex: none;
+    cursor: pointer;
+
+}
+
+.collections_button>.collectibles,
+.collections_button>.metaverse,
+.collections_button>.virtual_worlds,
+.collections_button>.sports,
+.collections_button>.music,
+.see_more__button>button{
+    background: #2f81ed00;
+    border: 1px solid white;
+}
+
